@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head> 
+    <title>Movie Switch List</title> </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            margin: 10px;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>choose your Film(s) of choice</h1>
+    <button onclick="showMovies('great')">Great Movies</button>
+    <button onclick="showMovies('funny')">Funny Movies</button>
+
+    <ul id="movieList" class="movie-list"></ul>
+
+    <script src="movies.js"></script>
+
+</body>
+</html>
